@@ -1,0 +1,55 @@
+Setup your homework environment
+===============================
+
+This exercise gives you no points, but it is required to do the other
+exercises. If you have problems, do not hesitate to contact us.
+
+
+a) Install Conda
+----------------
+
+To be able to run Jupyter Notebooks you will need Python. Follow this
+exercise to get everything up and running.
+
+We recommend to use Anaconda:
+
+Download and install Anaconda from https://www.anaconda.com/
+that contains all important Python packages.
+
+If you have limited diskspace install Miniconda
+https://conda.io/miniconda.html instead, which contains only conda and
+Python.  Follow the installation instructions on the web site.
+
+
+b) Setup the cv environment
+----------------------------
+
+Download cv.yml from Stud.IP. Then in a terminal navigate to the
+directory where you saved cv.yml and run
+
+conda env create -f cv.yml 
+
+
+c) Activate the environment
+---------------------------
+
+Always activate the enviornment when you work on the homework.
+
+Linux/Mac OS:
+
+   source activate cv
+
+For Windows:
+
+   activate cv
+
+d) Run Jupyter Notebooks
+------------------------
+
+After you installed Python and the cv environment verify you are able
+to run the notebook server by opening your command line
+
+  jupyter notebook
+  
+Usually a browser window should open up. If not, open your favorite
+webbrowser and navigate to localhost:8888/tree.
